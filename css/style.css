@@ -26,6 +26,7 @@ body {
 .orange {
   width: 100px;
   background: #ff9e6b;
+  float: right;
 }
 
 .brown {
