@@ -3,11 +3,7 @@
 body {
   width: 400px;
 }
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
+
 .red {
   height: 100px;
   background: #ff0000;
@@ -25,6 +21,12 @@ body {
   background: #cc00db;
   float: left;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .orange {
   width: 100px;
   height: 150px;
@@ -43,4 +45,9 @@ body {
   height: 100px;
   background: #8c2727;
   float: right;
+}
+
+.yellow {
+  height: 100px;
+  background: #fff700;
 }
